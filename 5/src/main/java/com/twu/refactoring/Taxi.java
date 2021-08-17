@@ -1,7 +1,7 @@
 package com.twu.refactoring;
 
 public class Taxi {
-    private boolean airConditioned;
+    private final boolean airConditioned;
     private final int totalKms;
     private final boolean peakTime;
 
